@@ -9,14 +9,14 @@ Input:
     - Where each pixel had a value from 0 to 255
   - These text files were created using the Matlab file:
    
-  '''matlab
+  ```matlab
       function [] = image_setup(imagefile)
       I = double(imread(imagefile));
       dlmwrite('image_size.txt', size(I), 'delimiter', '\t', 'newline', 'unix');
       dlmwrite('image_R.txt', I(:,:,1), 'delimiter', '\t', 'newline', 'unix');
       dlmwrite('image_G.txt', I(:,:,2), 'delimiter', '\t', 'newline', 'unix');
       dlmwrite('image_B.txt', I(:,:,3), 'delimiter', '\t', 'newline', 'unix');
-  '''
+  ```
 
 Output:
 3 Text Files
