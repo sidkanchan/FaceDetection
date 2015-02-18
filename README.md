@@ -3,7 +3,6 @@ FaceDetection
 Code was meant to run on a Texas Instruments TMS320C6416T DSP.
 
 __Input:__
-
 4 Text Files
   - 1 with the width, height, and number of color channels of the image
   - 1 for each R, G, B color channel
@@ -20,7 +19,6 @@ __Input:__
   ```
 
 __Output:__
-
 3 Text Files
   - 1 for each R, G, B color channel
   - Where there is a red box drawn around detected faces in image
